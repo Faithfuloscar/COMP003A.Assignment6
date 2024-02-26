@@ -36,9 +36,9 @@ namespace COMP003A.Assignment6
         /// <param name="numberOfWheels">Integer input for number of wheels</param>
         public Vehicle(string brand, string model, int numberOfWheels)
         {
-            _brand = brand;
-            _model = model;
-            _numberOfWheels = numberOfWheels;
+            Brand = brand;
+            Model = model;
+            NumberOfWheels = numberOfWheels;
         }
 
         /***** properties section *****/
@@ -47,8 +47,8 @@ namespace COMP003A.Assignment6
         /// </summary>
         public string Brand
         {
-            get { return _brand; }
-            set { _brand = value; }
+            get {return _brand; }
+            set {_brand = value; }
         }
 
         ///<summary>
